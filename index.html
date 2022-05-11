@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+  <title>Sendosweet</title>
+</head>
+<body>
+  <header>
+      <nav class="nav flex align-center">
+      <a class="nav__logo fs-header" href="#">Sendosweet</a>
+      <div class="links__container flex ">
+          <ul class="nav__links flex align-center justify-evenly">
+              <li><a href="#">Home</a></li>
+              <li><a href="#about">About Me</a></li>
+              <li><a href="#contact">Contact Me</a></li>
+          </ul>
+      </div>
+      <a class="cta-btn letter-spacing shadow" href="#works">My Works</a>
+    </nav>
+  </header>
+     <section class="hero flex align-center">
+         <div class="text__container padx-8em">
+          <h1 class="fs-xl clr-light-neutral text-center letter-spacing fw-200">I Draw Awesome <br> Characters</h1>
+          <button class="cta-btn flex justify-center mx-auto letter-spacing mary-20 fs-p shadow" type="button" name="button">See My Works ➔</button>
+         </div>
+         <div class="showcase__container">
+          <img class="showcase" src="./images/oliver.png" alt="">
+         </div>
+     </section>
+     <section id="works">
+            <div class="works__container text-center mary-20">
+                <h2 class="fs-header main__header">My <span class="highlight" style="--clr: var(--accent-2)">Works</span></h2>
+            </div>
+            <div class="container__images flex justify-center" data-flex='wrap'>
+                    <div class="test radius"></div>
+                    <div class="test radius"></div>
+                    <div class="test radius"></div>
+                    <div class="test radius"></div>
+                    <div class="test radius"></div>
+                    <div class="test radius"></div>
+                    <div class="test radius"></div>
+                    <div class="test radius"></div>
+                    <div class="test radius"></div>
+                    <div class="test radius"></div>
+                    <div class="test radius"></div>
+                    <div class="test radius"></div>
+            </div>
+     </section>
+     <section id="about" class="flex">
+        <main class="about__main flex " data-flex='col'>
+            <h2 class="fs-header main__header text-center mary-20">How I Started <span class="highlight">Drawing</span></h2>
+            <p class="main__paragraph fs-p fw-200 letter-spacing" style="--letter-spacing: .5px">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <ul class="circles flex center-content mary-4em">
+                <li class="circle active"></li>
+                <li class="circle"></li>
+                <li class="circle"></li>
+            </ul>
+        </main>
+        <aside class="about__sidebar flex align-center" data-flex='col'>
+            <div class="sidebar__container">
+                <img class="sidebar__img radius" src="./images/unknown.png" alt="demon girl">
+                <div class="sidebar__alt text-right padx-5 fw-200">
+                    <small>Demon Girl</small>
+                </div>
+            </div>
+            <div class="sidebar__container">
+                <img class="sidebar__img radius" src="./images/sketch.jpg" alt="sketch">
+                <div class="sidebar__alt text-right padx-5 fw-200">
+                    <small>Sketch</small>
+                </div>
+            </div>
+        </aside>
+     </section>
+     <footer id="contact">
+         <div class="contact__container text-center mary-20">
+             <h2 class="fs-header main__header" style="color: var(--light-neutral)">Contact Me <span class="highlight" style="--clr: var(--accent-3);">Through</span></h2>
+         </div>
+        <ul class="container__social-links flex center-content">
+            <li id="twitter" class="social-links">Twitter</li>
+            <li id="discord" class="social-links">Discord</li>
+        </ul>
+        <div class="container__farewell flex align-center" data-flex='col'>
+            <h3 class="farewell mary-40 fs-l">Feel Free To Come Back Whenever You Want!</h3>
+            <a class="cta-btn mary-20" href="#">Back to Home</a>
+        </div>
+    </footer>
+     </section>
+  </div>
+  <script src="app.js" charset="utf-8"></script>
+</body>
+</html>
